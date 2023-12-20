@@ -5,6 +5,7 @@
    align-items: center;
    width: 400px;
    flex-direction: column; 
+   margin-bottom: 30px;
 }
 .description{
     text-align: center;

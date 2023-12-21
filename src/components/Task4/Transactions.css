@@ -1,0 +1,28 @@
+.transaction-history {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.transaction-history th,
+.transaction-history td {
+    padding: 8px;
+    border: 2px solid #ddd;
+}
+
+.transaction-history tr.even {
+    background-color: #fff;
+    /* білий колір для парних рядків */
+}
+
+.transaction-history tr.odd {
+    background-color: #e3e3e3;
+    /* світло-сірий колір для непарних рядків */
+}
+.title-tr {
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+    background: rgb(61, 210, 255);
+}

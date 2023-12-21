@@ -8,7 +8,9 @@ import './index.css';
 import { Statistics } from './components/Task2/Statistic';
 import data from "./components/Data/data.json"
 
-
+// task3
+import {FriendList} from "./components/Task3/Friends"
+import friends from "./components/Data/friends.json"
 
 
 
@@ -22,8 +24,8 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
         />
-        <Statistics title="Upload stats" stats={data}
-        />
+        <Statistics title="Upload stats" stats={data} />
+        <FriendList friends={friends} />
     </div>
   );
 };
